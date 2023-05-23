@@ -6,6 +6,8 @@
 	font-family: var(--fontePrincipal);
 	--arcoiris: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box, linear-gradient(#d39e33, #ed5636, #633bbc) border-box;
 	--cor-bordar-vermelha: rgb(178, 6, 6);
+	--cor-background: #121215;
+	--cor-seundaria:  #B6EADA;
 }
 
 *{
@@ -20,7 +22,7 @@ body{
 	grid-template-areas: "profile projetos certificados";
 	grid-template-columns:30% 40% 30%;
 	grid-template-rows: 100vh;
-	background-color: #121215;
+	background-color: var(--cor-background);
 	color: #eaeaea;
 	font-family: var(--fontePrincipal);
 	height: 100vh;
@@ -47,10 +49,6 @@ small{
 	height: 10rem;
 	margin-top: 1rem;
 	border-radius: 1rem;
-}
-
-.imagem__grande{
-	width: 100%;
 }
 
 .repositorio{
@@ -83,9 +81,34 @@ small{
 	border-image: linear-gradient(#727275, #2c2c31) 1 ;
 	gap: 1.2rem;
 	background-image: url("./img/background/backgroud_d.png");
-	background-position: top right;
+	background-position: top;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100vh;
+}
+
+.cabecalho{
+	display: flex;
+	position: relative;
+	background-color: var(--cor-background);
+	width: 100%;
+	bottom: 25%;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.barra__redessociais{
+	height: 4rem;
+	padding: 0 0.3rem;
+}
+
+.redessociais_links{
+	margin: 1rem;
+    transition: 1.2s;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+    background-color: var(--cor-seundaria);
 }
 
 .perfil{
@@ -116,9 +139,9 @@ small{
 	border-right: 1px solid;
 	border-image: linear-gradient(#727275, #2c2c31) 1 ;
 	background-image: url("./img/background/backgroud_e.png");
-	background-position: top right;
+	background-position: top;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100vh;
 	overflow-y: scroll;
 }
 
