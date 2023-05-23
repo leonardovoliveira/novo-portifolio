@@ -20,12 +20,12 @@
 	}
 
 	.cabecalho{
-			display: flex;
-			position: relative;
-			width: 100%;
-			bottom: 1%;
-			text-align: center;
-			justify-content: space-around;
+		display: flex;
+		position: relative;
+		width: 100%;
+		bottom: 1%;
+		text-align: center;
+		justify-content: space-around;
 	}
 
 	.perfil, .titulo__nome, .icone__linguagem{
@@ -33,7 +33,7 @@
 	}
 
 	.perfil{
-		width: 50%;
+		width: 40%;
 	}
 
 	.projetos{
