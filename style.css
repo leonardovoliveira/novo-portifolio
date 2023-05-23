@@ -17,6 +17,39 @@
 	box-sizing: border-box;
 }
 
+@keyframes entering-leftright {
+	from{
+		opacity: 0;
+		transform: translateX(200px);
+	}
+	to{
+		opacity: 1;
+		transform:translateX(0);
+	}
+}
+
+@keyframes entering-rightleft {
+	from{
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+	to{
+		opacity: 1;
+		transform:translateX(0);
+	}
+}
+
+@keyframes entering-topdown {
+	from{
+		opacity: 0;
+		transform: translateY(-200px);
+	}
+	to{
+		opacity: 1;
+		transform:translateY(0);
+	}
+}
+
 body{
 	display: grid;
 	grid-template-areas: "profile projetos certificados";
@@ -36,6 +69,7 @@ body{
 	padding: 1.5rem;
 	grid-area: "projetos";
 	overflow-y: scroll;
+	animation: entering-topdown 0.7s ease-in-out;
 }
 
 small{
@@ -111,11 +145,19 @@ small{
     background-color: var(--cor-seundaria);
 }
 
+.perfil, .icone__linguagem, .titulo__nome {
+	animation: entering-rightleft 0.7s ease-in-out;
+}
+
 .perfil{
 	width: 15rem;
 	border-radius: 50%;
 	border: 0.5px solid transparent;
 	background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box, linear-gradient(#d39e33, #ed5636, #633bbc) border-box;
+}
+
+.titulo__nome{
+	font-family: var(--fontePrincipal);
 }
 
 .icone__linguagem{
@@ -164,6 +206,7 @@ small{
 	height: 12rem;
 	align-items: center;
 	justify-content: center;
+	animation: entering-leftright 0.7s ease-in-out;
 }
 
 .swiper-slide img{

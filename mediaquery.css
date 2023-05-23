@@ -19,6 +19,19 @@
 		width: 0 auto;
 	}
 
+	.cabecalho{
+			display: flex;
+			position: relative;
+			width: 100%;
+			bottom: 1%;
+			text-align: center;
+			justify-content: space-around;
+	}
+
+	.perfil, .titulo__nome, .icone__linguagem{
+		animation: entering-topdown 0.7s ease-in-out;
+	}
+
 	.perfil{
 		width: 50%;
 	}
@@ -29,5 +42,9 @@
 
 	.certificados{
 		display: flex;
+	}
+
+	.repositorio{
+		text-align: center;
 	}
 }
