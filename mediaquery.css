@@ -19,6 +19,10 @@
 		width: 0 auto;
 	}
 
+	.perfil{
+		width: 50%;
+	}
+
 	.projetos{
 		overflow-y: initial;
 	}
