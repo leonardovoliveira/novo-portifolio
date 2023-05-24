@@ -8,6 +8,7 @@
 	--cor-bordar-vermelha: rgb(178, 6, 6);
 	--cor-background: #121215;
 	--cor-seundaria:  #B6EADA;
+	--background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
 }
 
 *{
@@ -124,7 +125,7 @@ small{
 	border-right: 1px solid;
 	border-image: linear-gradient(#727275, #2c2c31) 1 ;
 	gap: 1rem;
-	background-image: url("./img/background/backgroud_d.png");
+	background-image: var(--background);
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100vh;
@@ -191,7 +192,7 @@ small{
 	align-items: center;
 	border-right: 1px solid;
 	border-image: linear-gradient(#727275, #2c2c31) 1 ;
-	background-image: url("./img/background/backgroud_e.png");
+	background-image: var(--background);
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100vh;
