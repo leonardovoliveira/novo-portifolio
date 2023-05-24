@@ -125,7 +125,7 @@ small{
 	border-right: 1px solid;
 	border-image: linear-gradient(#727275, #2c2c31) 1 ;
 	gap: 1rem;
-	background-image: var(--background);
+	background-image: url("./img/background/backgroud_d.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100vh;
@@ -192,7 +192,7 @@ small{
 	align-items: center;
 	border-right: 1px solid;
 	border-image: linear-gradient(#727275, #2c2c31) 1 ;
-	background-image: var(--background);
+	background-image: url("./img/background/backgroud_e.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100vh;
