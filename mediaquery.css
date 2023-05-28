@@ -32,6 +32,12 @@
 		animation: entering-topdown 0.7s ease-in-out;
 	}
 
+	.barra__redessociais{
+		position: relative;
+		top 0;
+		height: 4rem;
+	}
+
 	.perfil{
 		width: 40%;
 	}

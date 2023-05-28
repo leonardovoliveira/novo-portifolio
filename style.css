@@ -142,8 +142,9 @@ small{
 }
 
 .barra__redessociais{
+	position: fixed;
+	top 0;
 	height: 4rem;
-	padding: 0 0.3rem;
 }
 
 .redessociais_links{
@@ -217,10 +218,11 @@ small{
 	align-items: center;
 	justify-content: center;
 	animation: entering-leftright 0.7s ease-in-out;
+	margin-left: 2.5rem;
 }
 
 .swiper-slide img{
-	width: 100%;
+	width: 80%;
 }
 
 .swiper-button-prev,
