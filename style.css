@@ -213,8 +213,7 @@ small{
 }
 
 .certificado{
-	width: 15rem;
-	height: 12rem;
+	height: 15rem;
 	align-items: center;
 	justify-content: center;
 	animation: entering-leftright 0.7s ease-in-out;
