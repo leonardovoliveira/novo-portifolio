@@ -54,7 +54,7 @@
 body{
 	display: grid;
 	grid-template-areas: "profile projetos certificados";
-	grid-template-columns: 30% 45% 25%;
+	grid-template-columns: 32% 40% 28%;
 	grid-template-rows: 100vh;
 	background-color: var(--cor-background);
 	color: #eaeaea;
