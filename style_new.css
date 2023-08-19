@@ -52,9 +52,9 @@
 }
 
 body{
-	display: grid;
+	display: flex;
 	grid-template-areas: "profile projetos certificados";
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 100%;
 	grid-template-rows: 100vh;
 	background-color: var(--cor-background);
 	color: #eaeaea;
